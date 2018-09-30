@@ -1,0 +1,1791 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) UserWalletSummary with default prop values renders and matches snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UserWalletSummary
+    estAccountValue="100.00 BEX"
+    loading={false}
+    bbdRate={1}
+    dpayRate={1}
+    dpayRateLoading={false}
+    totalVestingFundDPay="100 BEX"
+    totalVestingShares="100 BEX"
+    user={
+      Object {
+        "balance": "100",
+        "savings_balance": "100 BEX",
+        "savings_bbd_balance": "1000 BEX",
+        "vesting_shares": "0",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="UserWalletSummary__item"
+        >
+          <i
+            className="iconfont icon-dpay UserWalletSummary__icon"
+          />
+          <div
+            className="UserWalletSummary__label"
+          >
+            <FormattedMessage
+              defaultMessage="dPay"
+              id="dpay"
+              values={Object {}}
+            />
+          </div>
+          <div
+            className="UserWalletSummary__value"
+          >
+            <span>
+              <FormattedNumber
+                value={100}
+              />
+               BEX
+            </span>
+          </div>
+        </div>,
+        <div
+          className="UserWalletSummary__item"
+        >
+          <i
+            className="iconfont icon-flashlight_fill UserWalletSummary__icon"
+          />
+          <div
+            className="UserWalletSummary__label"
+          >
+            <FormattedMessage
+              defaultMessage="BEX Power"
+              id="dpay_power"
+              values={Object {}}
+            />
+          </div>
+          <div
+            className="UserWalletSummary__value"
+          >
+            <span>
+              <FormattedNumber
+                value={0}
+              />
+               BP
+              <BTooltip
+                title={
+                  <span>
+                    <FormattedMessage
+                      defaultMessage="BEX Power delegated to this account"
+                      id="dpay_power_delegated_to_account_tooltip"
+                      values={Object {}}
+                    />
+                  </span>
+                }
+              >
+                <span>
+                  (
+                  <FormattedNumber
+                    value={NaN}
+                  />
+                   BP)
+                </span>
+              </BTooltip>
+            </span>
+          </div>
+        </div>,
+        <div
+          className="UserWalletSummary__item"
+        >
+          <i
+            className="iconfont icon-Dollar UserWalletSummary__icon"
+          />
+          <div
+            className="UserWalletSummary__label"
+          >
+            <FormattedMessage
+              defaultMessage="BEX Dollar"
+              id="dpay_dollar"
+              values={Object {}}
+            />
+          </div>
+          <div
+            className="UserWalletSummary__value"
+          >
+            <span>
+              <FormattedNumber
+                value={NaN}
+              />
+               BBD
+            </span>
+          </div>
+        </div>,
+        <div
+          className="UserWalletSummary__item"
+        >
+          <i
+            className="iconfont icon-savings UserWalletSummary__icon"
+          />
+          <div
+            className="UserWalletSummary__label"
+          >
+            <FormattedMessage
+              defaultMessage="Savings"
+              id="savings"
+              values={Object {}}
+            />
+          </div>
+          <div
+            className="UserWalletSummary__value"
+          >
+            <span>
+              <FormattedNumber
+                value={100}
+              />
+               BEX,
+              <FormattedNumber
+                value={1000}
+              />
+               BBD
+            </span>
+          </div>
+        </div>,
+        <div
+          className="UserWalletSummary__item"
+        >
+          <i
+            className="iconfont icon-people_fill UserWalletSummary__icon"
+          />
+          <div
+            className="UserWalletSummary__label"
+          >
+            <FormattedMessage
+              defaultMessage="Est. Account Value"
+              id="est_account_value"
+              values={Object {}}
+            />
+          </div>
+          <div
+            className="UserWalletSummary__value"
+          >
+            <USDDisplay
+              value={NaN}
+            />
+          </div>
+        </div>,
+      ],
+      "className": "UserWalletSummary",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <i
+              className="iconfont icon-dpay UserWalletSummary__icon"
+            />,
+            <div
+              className="UserWalletSummary__label"
+            >
+              <FormattedMessage
+                defaultMessage="dPay"
+                id="dpay"
+                values={Object {}}
+              />
+            </div>,
+            <div
+              className="UserWalletSummary__value"
+            >
+              <span>
+                <FormattedNumber
+                  value={100}
+                />
+                 BEX
+              </span>
+            </div>,
+          ],
+          "className": "UserWalletSummary__item",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "iconfont icon-dpay UserWalletSummary__icon",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <FormattedMessage
+                defaultMessage="dPay"
+                id="dpay"
+                values={Object {}}
+              />,
+              "className": "UserWalletSummary__label",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "dPay",
+                "id": "dpay",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                <FormattedNumber
+                  value={100}
+                />
+                 BEX
+              </span>,
+              "className": "UserWalletSummary__value",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <FormattedNumber
+                    value={100}
+                  />,
+                  " BEX",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "value": 100,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                " BEX",
+              ],
+              "type": "span",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <i
+              className="iconfont icon-flashlight_fill UserWalletSummary__icon"
+            />,
+            <div
+              className="UserWalletSummary__label"
+            >
+              <FormattedMessage
+                defaultMessage="BEX Power"
+                id="dpay_power"
+                values={Object {}}
+              />
+            </div>,
+            <div
+              className="UserWalletSummary__value"
+            >
+              <span>
+                <FormattedNumber
+                  value={0}
+                />
+                 BP
+                <BTooltip
+                  title={
+                    <span>
+                      <FormattedMessage
+                        defaultMessage="BEX Power delegated to this account"
+                        id="dpay_power_delegated_to_account_tooltip"
+                        values={Object {}}
+                      />
+                    </span>
+                  }
+                >
+                  <span>
+                    (
+                    <FormattedNumber
+                      value={NaN}
+                    />
+                     BP)
+                  </span>
+                </BTooltip>
+              </span>
+            </div>,
+          ],
+          "className": "UserWalletSummary__item",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "iconfont icon-flashlight_fill UserWalletSummary__icon",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <FormattedMessage
+                defaultMessage="BEX Power"
+                id="dpay_power"
+                values={Object {}}
+              />,
+              "className": "UserWalletSummary__label",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "BEX Power",
+                "id": "dpay_power",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                <FormattedNumber
+                  value={0}
+                />
+                 BP
+                <BTooltip
+                  title={
+                    <span>
+                      <FormattedMessage
+                        defaultMessage="BEX Power delegated to this account"
+                        id="dpay_power_delegated_to_account_tooltip"
+                        values={Object {}}
+                      />
+                    </span>
+                  }
+                >
+                  <span>
+                    (
+                    <FormattedNumber
+                      value={NaN}
+                    />
+                     BP)
+                  </span>
+                </BTooltip>
+              </span>,
+              "className": "UserWalletSummary__value",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <FormattedNumber
+                    value={0}
+                  />,
+                  " BP ",
+                  <BTooltip
+                    title={
+                      <span>
+                        <FormattedMessage
+                          defaultMessage="BEX Power delegated to this account"
+                          id="dpay_power_delegated_to_account_tooltip"
+                          values={Object {}}
+                        />
+                      </span>
+                    }
+                  >
+                    <span>
+                      (
+                      <FormattedNumber
+                        value={NaN}
+                      />
+                       BP)
+                    </span>
+                  </BTooltip>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "value": 0,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                " BP ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <span>
+                      (
+                      <FormattedNumber
+                        value={NaN}
+                      />
+                       BP)
+                    </span>,
+                    "title": <span>
+                      <FormattedMessage
+                        defaultMessage="BEX Power delegated to this account"
+                        id="dpay_power_delegated_to_account_tooltip"
+                        values={Object {}}
+                      />
+                    </span>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "(",
+                        <FormattedNumber
+                          value={NaN}
+                        />,
+                        " BP)",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "(",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "value": NaN,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      " BP)",
+                    ],
+                    "type": "span",
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": "span",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <i
+              className="iconfont icon-Dollar UserWalletSummary__icon"
+            />,
+            <div
+              className="UserWalletSummary__label"
+            >
+              <FormattedMessage
+                defaultMessage="BEX Dollar"
+                id="dpay_dollar"
+                values={Object {}}
+              />
+            </div>,
+            <div
+              className="UserWalletSummary__value"
+            >
+              <span>
+                <FormattedNumber
+                  value={NaN}
+                />
+                 BBD
+              </span>
+            </div>,
+          ],
+          "className": "UserWalletSummary__item",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "iconfont icon-Dollar UserWalletSummary__icon",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <FormattedMessage
+                defaultMessage="BEX Dollar"
+                id="dpay_dollar"
+                values={Object {}}
+              />,
+              "className": "UserWalletSummary__label",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "BEX Dollar",
+                "id": "dpay_dollar",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                <FormattedNumber
+                  value={NaN}
+                />
+                 BBD
+              </span>,
+              "className": "UserWalletSummary__value",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <FormattedNumber
+                    value={NaN}
+                  />,
+                  " BBD",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "value": NaN,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                " BBD",
+              ],
+              "type": "span",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <i
+              className="iconfont icon-savings UserWalletSummary__icon"
+            />,
+            <div
+              className="UserWalletSummary__label"
+            >
+              <FormattedMessage
+                defaultMessage="Savings"
+                id="savings"
+                values={Object {}}
+              />
+            </div>,
+            <div
+              className="UserWalletSummary__value"
+            >
+              <span>
+                <FormattedNumber
+                  value={100}
+                />
+                 BEX,
+                <FormattedNumber
+                  value={1000}
+                />
+                 BBD
+              </span>
+            </div>,
+          ],
+          "className": "UserWalletSummary__item",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "iconfont icon-savings UserWalletSummary__icon",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <FormattedMessage
+                defaultMessage="Savings"
+                id="savings"
+                values={Object {}}
+              />,
+              "className": "UserWalletSummary__label",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "Savings",
+                "id": "savings",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                <FormattedNumber
+                  value={100}
+                />
+                 BEX,
+                <FormattedNumber
+                  value={1000}
+                />
+                 BBD
+              </span>,
+              "className": "UserWalletSummary__value",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <FormattedNumber
+                    value={100}
+                  />,
+                  " BEX, ",
+                  <FormattedNumber
+                    value={1000}
+                  />,
+                  " BBD",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "value": 100,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                " BEX, ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "value": 1000,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                " BBD",
+              ],
+              "type": "span",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <i
+              className="iconfont icon-people_fill UserWalletSummary__icon"
+            />,
+            <div
+              className="UserWalletSummary__label"
+            >
+              <FormattedMessage
+                defaultMessage="Est. Account Value"
+                id="est_account_value"
+                values={Object {}}
+              />
+            </div>,
+            <div
+              className="UserWalletSummary__value"
+            >
+              <USDDisplay
+                value={NaN}
+              />
+            </div>,
+          ],
+          "className": "UserWalletSummary__item",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "iconfont icon-people_fill UserWalletSummary__icon",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <FormattedMessage
+                defaultMessage="Est. Account Value"
+                id="est_account_value"
+                values={Object {}}
+              />,
+              "className": "UserWalletSummary__label",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "Est. Account Value",
+                "id": "est_account_value",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <USDDisplay
+                value={NaN}
+              />,
+              "className": "UserWalletSummary__value",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "value": NaN,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="UserWalletSummary__item"
+          >
+            <i
+              className="iconfont icon-dpay UserWalletSummary__icon"
+            />
+            <div
+              className="UserWalletSummary__label"
+            >
+              <FormattedMessage
+                defaultMessage="dPay"
+                id="dpay"
+                values={Object {}}
+              />
+            </div>
+            <div
+              className="UserWalletSummary__value"
+            >
+              <span>
+                <FormattedNumber
+                  value={100}
+                />
+                 BEX
+              </span>
+            </div>
+          </div>,
+          <div
+            className="UserWalletSummary__item"
+          >
+            <i
+              className="iconfont icon-flashlight_fill UserWalletSummary__icon"
+            />
+            <div
+              className="UserWalletSummary__label"
+            >
+              <FormattedMessage
+                defaultMessage="BEX Power"
+                id="dpay_power"
+                values={Object {}}
+              />
+            </div>
+            <div
+              className="UserWalletSummary__value"
+            >
+              <span>
+                <FormattedNumber
+                  value={0}
+                />
+                 BP
+                <BTooltip
+                  title={
+                    <span>
+                      <FormattedMessage
+                        defaultMessage="BEX Power delegated to this account"
+                        id="dpay_power_delegated_to_account_tooltip"
+                        values={Object {}}
+                      />
+                    </span>
+                  }
+                >
+                  <span>
+                    (
+                    <FormattedNumber
+                      value={NaN}
+                    />
+                     BP)
+                  </span>
+                </BTooltip>
+              </span>
+            </div>
+          </div>,
+          <div
+            className="UserWalletSummary__item"
+          >
+            <i
+              className="iconfont icon-Dollar UserWalletSummary__icon"
+            />
+            <div
+              className="UserWalletSummary__label"
+            >
+              <FormattedMessage
+                defaultMessage="BEX Dollar"
+                id="dpay_dollar"
+                values={Object {}}
+              />
+            </div>
+            <div
+              className="UserWalletSummary__value"
+            >
+              <span>
+                <FormattedNumber
+                  value={NaN}
+                />
+                 BBD
+              </span>
+            </div>
+          </div>,
+          <div
+            className="UserWalletSummary__item"
+          >
+            <i
+              className="iconfont icon-savings UserWalletSummary__icon"
+            />
+            <div
+              className="UserWalletSummary__label"
+            >
+              <FormattedMessage
+                defaultMessage="Savings"
+                id="savings"
+                values={Object {}}
+              />
+            </div>
+            <div
+              className="UserWalletSummary__value"
+            >
+              <span>
+                <FormattedNumber
+                  value={100}
+                />
+                 BEX,
+                <FormattedNumber
+                  value={1000}
+                />
+                 BBD
+              </span>
+            </div>
+          </div>,
+          <div
+            className="UserWalletSummary__item"
+          >
+            <i
+              className="iconfont icon-people_fill UserWalletSummary__icon"
+            />
+            <div
+              className="UserWalletSummary__label"
+            >
+              <FormattedMessage
+                defaultMessage="Est. Account Value"
+                id="est_account_value"
+                values={Object {}}
+              />
+            </div>
+            <div
+              className="UserWalletSummary__value"
+            >
+              <USDDisplay
+                value={NaN}
+              />
+            </div>
+          </div>,
+        ],
+        "className": "UserWalletSummary",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <i
+                className="iconfont icon-dpay UserWalletSummary__icon"
+              />,
+              <div
+                className="UserWalletSummary__label"
+              >
+                <FormattedMessage
+                  defaultMessage="dPay"
+                  id="dpay"
+                  values={Object {}}
+                />
+              </div>,
+              <div
+                className="UserWalletSummary__value"
+              >
+                <span>
+                  <FormattedNumber
+                    value={100}
+                  />
+                   BEX
+                </span>
+              </div>,
+            ],
+            "className": "UserWalletSummary__item",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "iconfont icon-dpay UserWalletSummary__icon",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="dPay"
+                  id="dpay"
+                  values={Object {}}
+                />,
+                "className": "UserWalletSummary__label",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "dPay",
+                  "id": "dpay",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  <FormattedNumber
+                    value={100}
+                  />
+                   BEX
+                </span>,
+                "className": "UserWalletSummary__value",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <FormattedNumber
+                      value={100}
+                    />,
+                    " BEX",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "value": 100,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  " BEX",
+                ],
+                "type": "span",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <i
+                className="iconfont icon-flashlight_fill UserWalletSummary__icon"
+              />,
+              <div
+                className="UserWalletSummary__label"
+              >
+                <FormattedMessage
+                  defaultMessage="BEX Power"
+                  id="dpay_power"
+                  values={Object {}}
+                />
+              </div>,
+              <div
+                className="UserWalletSummary__value"
+              >
+                <span>
+                  <FormattedNumber
+                    value={0}
+                  />
+                   BP
+                  <BTooltip
+                    title={
+                      <span>
+                        <FormattedMessage
+                          defaultMessage="BEX Power delegated to this account"
+                          id="dpay_power_delegated_to_account_tooltip"
+                          values={Object {}}
+                        />
+                      </span>
+                    }
+                  >
+                    <span>
+                      (
+                      <FormattedNumber
+                        value={NaN}
+                      />
+                       BP)
+                    </span>
+                  </BTooltip>
+                </span>
+              </div>,
+            ],
+            "className": "UserWalletSummary__item",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "iconfont icon-flashlight_fill UserWalletSummary__icon",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="BEX Power"
+                  id="dpay_power"
+                  values={Object {}}
+                />,
+                "className": "UserWalletSummary__label",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "BEX Power",
+                  "id": "dpay_power",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  <FormattedNumber
+                    value={0}
+                  />
+                   BP
+                  <BTooltip
+                    title={
+                      <span>
+                        <FormattedMessage
+                          defaultMessage="BEX Power delegated to this account"
+                          id="dpay_power_delegated_to_account_tooltip"
+                          values={Object {}}
+                        />
+                      </span>
+                    }
+                  >
+                    <span>
+                      (
+                      <FormattedNumber
+                        value={NaN}
+                      />
+                       BP)
+                    </span>
+                  </BTooltip>
+                </span>,
+                "className": "UserWalletSummary__value",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <FormattedNumber
+                      value={0}
+                    />,
+                    " BP ",
+                    <BTooltip
+                      title={
+                        <span>
+                          <FormattedMessage
+                            defaultMessage="BEX Power delegated to this account"
+                            id="dpay_power_delegated_to_account_tooltip"
+                            values={Object {}}
+                          />
+                        </span>
+                      }
+                    >
+                      <span>
+                        (
+                        <FormattedNumber
+                          value={NaN}
+                        />
+                         BP)
+                      </span>
+                    </BTooltip>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "value": 0,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  " BP ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <span>
+                        (
+                        <FormattedNumber
+                          value={NaN}
+                        />
+                         BP)
+                      </span>,
+                      "title": <span>
+                        <FormattedMessage
+                          defaultMessage="BEX Power delegated to this account"
+                          id="dpay_power_delegated_to_account_tooltip"
+                          values={Object {}}
+                        />
+                      </span>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "(",
+                          <FormattedNumber
+                            value={NaN}
+                          />,
+                          " BP)",
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "(",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "value": NaN,
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        " BP)",
+                      ],
+                      "type": "span",
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": "span",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <i
+                className="iconfont icon-Dollar UserWalletSummary__icon"
+              />,
+              <div
+                className="UserWalletSummary__label"
+              >
+                <FormattedMessage
+                  defaultMessage="BEX Dollar"
+                  id="dpay_dollar"
+                  values={Object {}}
+                />
+              </div>,
+              <div
+                className="UserWalletSummary__value"
+              >
+                <span>
+                  <FormattedNumber
+                    value={NaN}
+                  />
+                   BBD
+                </span>
+              </div>,
+            ],
+            "className": "UserWalletSummary__item",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "iconfont icon-Dollar UserWalletSummary__icon",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="BEX Dollar"
+                  id="dpay_dollar"
+                  values={Object {}}
+                />,
+                "className": "UserWalletSummary__label",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "BEX Dollar",
+                  "id": "dpay_dollar",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  <FormattedNumber
+                    value={NaN}
+                  />
+                   BBD
+                </span>,
+                "className": "UserWalletSummary__value",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <FormattedNumber
+                      value={NaN}
+                    />,
+                    " BBD",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "value": NaN,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  " BBD",
+                ],
+                "type": "span",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <i
+                className="iconfont icon-savings UserWalletSummary__icon"
+              />,
+              <div
+                className="UserWalletSummary__label"
+              >
+                <FormattedMessage
+                  defaultMessage="Savings"
+                  id="savings"
+                  values={Object {}}
+                />
+              </div>,
+              <div
+                className="UserWalletSummary__value"
+              >
+                <span>
+                  <FormattedNumber
+                    value={100}
+                  />
+                   BEX,
+                  <FormattedNumber
+                    value={1000}
+                  />
+                   BBD
+                </span>
+              </div>,
+            ],
+            "className": "UserWalletSummary__item",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "iconfont icon-savings UserWalletSummary__icon",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="Savings"
+                  id="savings"
+                  values={Object {}}
+                />,
+                "className": "UserWalletSummary__label",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "Savings",
+                  "id": "savings",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  <FormattedNumber
+                    value={100}
+                  />
+                   BEX,
+                  <FormattedNumber
+                    value={1000}
+                  />
+                   BBD
+                </span>,
+                "className": "UserWalletSummary__value",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <FormattedNumber
+                      value={100}
+                    />,
+                    " BEX, ",
+                    <FormattedNumber
+                      value={1000}
+                    />,
+                    " BBD",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "value": 100,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  " BEX, ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "value": 1000,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  " BBD",
+                ],
+                "type": "span",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <i
+                className="iconfont icon-people_fill UserWalletSummary__icon"
+              />,
+              <div
+                className="UserWalletSummary__label"
+              >
+                <FormattedMessage
+                  defaultMessage="Est. Account Value"
+                  id="est_account_value"
+                  values={Object {}}
+                />
+              </div>,
+              <div
+                className="UserWalletSummary__value"
+              >
+                <USDDisplay
+                  value={NaN}
+                />
+              </div>,
+            ],
+            "className": "UserWalletSummary__item",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "iconfont icon-people_fill UserWalletSummary__icon",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="Est. Account Value"
+                  id="est_account_value"
+                  values={Object {}}
+                />,
+                "className": "UserWalletSummary__label",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "Est. Account Value",
+                  "id": "est_account_value",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <USDDisplay
+                  value={NaN}
+                />,
+                "className": "UserWalletSummary__value",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "value": NaN,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

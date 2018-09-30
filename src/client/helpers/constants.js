@@ -1,0 +1,33 @@
+export const knownDomains = [
+  'localhost',
+  'dsocial.io',
+  'staging.dsocial.io',
+  'dsite.io',
+  'dpays.io',
+  'dvideo.io',
+  'coinmarketcap.com',
+  'youtube.com',
+];
+
+export const people = [
+  'dsocial',
+  'jared',
+  'nomoreheroes',
+  'stan',
+  'michaelx',
+  'cryptokong',
+  'lune',
+  'onceuponatime',
+  'freedomfirst',
+  'mbex',
+  'nefertiti',
+  'quin',
+  'stormkrow',
+  'dpay',
+  'dpayid',
+  'dsite',
+  'dweb',
+  'distributedweb',
+  'arisen',
+  'dwiki',
+];
