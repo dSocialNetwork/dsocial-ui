@@ -1,7 +1,7 @@
 import { Client } from 'dsocialjs';
 
 function createDSocialAPI() {
-  const client = new Client('wss://api.dsocial.io');
+  const client = new Client('wss://greatchain.dpaynodes.com');
 
   client.sendAsync = (message, params) =>
     new Promise((resolve, reject) => {

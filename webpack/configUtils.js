@@ -29,7 +29,7 @@ const DEFINE_PLUGIN = new webpack.DefinePlugin({
     process.env.DPAYID_CLIENT_ID || 'dsocial.dapp',
   ),
   'process.env.DPAYID_REDIRECT_URL': JSON.stringify(
-    process.env.DPAYID_REDIRECT_URL || 'http://localhost:3000/callback',
+    process.env.DPAYID_REDIRECT_URL || 'https://dsocial.io/callback',
   ),
   'process.env.DPAYID_HOST': JSON.stringify(
     process.env.DPAYID_HOST || 'https://go.dpayid.io',
