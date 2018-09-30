@@ -5,7 +5,7 @@ import { renderToString } from 'react-dom/server';
 import { StaticRouter } from 'react-router';
 import { matchRoutes, renderRoutes } from 'react-router-config';
 
-import sc2 from 'sc2-sdk';
+import dpid from 'dpayid';
 import getStore from '../../client/store';
 import routes from '../../common/routes';
 import renderSsrPage from '../renderers/ssrRenderer';
@@ -27,7 +27,7 @@ function createTimeout(timeout, promise) {
 export default function createSsrHandler(template) {
   return async function serverSideResponse(req, res) {
     try {
-      const api = sc2.Initialize({
+      const api = dpid.Initialize({
         app: process.env.DPAYID_CLIENT_ID,
         baseURL: process.env.DPAYID_HOST,
         callbackURL: process.env.DPAYID_REDIRECT_URL,
